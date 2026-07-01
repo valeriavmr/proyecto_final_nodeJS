@@ -8,6 +8,49 @@ La API permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) so
 
 ---
 
+## Uso de la API
+
+La API se encuentra desplegada en Vercel y puede utilizarse directamente mediante el siguiente dominio:
+
+`https://proyecto-final-node-js-455c.vercel.app`
+
+Todos los endpoints se encuentran bajo el prefijo `/api`, por lo que las solicitudes deben realizarse utilizando la siguiente estructura:
+
+* Obtener todos los productos:
+
+  ```
+  GET https://proyecto-final-node-js-455c.vercel.app/api/products
+  ```
+
+* Obtener un producto por su ID:
+
+  ```
+  GET https://proyecto-final-node-js-455c.vercel.app/api/products/{id}
+  ```
+
+* Crear un producto:
+
+  ```
+  POST https://proyecto-final-node-js-455c.vercel.app/api/products
+  ```
+
+* Actualizar un producto:
+
+  ```
+  PUT https://proyecto-final-node-js-455c.vercel.app/api/products/{id}
+  ```
+
+* Eliminar un producto:
+
+  ```
+  DELETE https://proyecto-final-node-js-455c.vercel.app/api/products/{id}
+  ```
+
+Las solicitudes pueden realizarse desde herramientas como **Postman**, **Insomnia**, **Thunder Client** o cualquier cliente HTTP compatible.
+
+
+---
+
 ## Tecnologías utilizadas
 
 * Node.js
